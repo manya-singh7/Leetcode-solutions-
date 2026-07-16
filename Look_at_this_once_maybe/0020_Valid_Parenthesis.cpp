@@ -1,4 +1,15 @@
-/*Easy*/
+/*
+Easy
+Time Complexity
+
+Let n be the length of the string.
+
+We traverse the string exactly once → O(n)
+Each stack operation (push, pop, top) takes O(1)
+unordered_map lookup (find, mp[c]) takes O(1) on average.
+
+Overall Time Complexity: O(n)
+*/
 
 #include <stack>
 #include<iostream>
